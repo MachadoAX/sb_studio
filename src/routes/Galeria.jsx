@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { Button } from "flowbite-react";
 
 import img1 from '../assets/img/img1.jpeg'
 import img2 from '../assets/img/img2.jpeg'
@@ -29,7 +30,6 @@ const Galeria = () => {
             <img className="h-auto max-w-full rounded-lg" src={img4} alt=""/>
         </div>
     </div>
-    
     <Footer/>
 </>
   )

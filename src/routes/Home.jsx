@@ -14,21 +14,21 @@ const Home = () => {
         <img src={logo_sb_1} className='m-auto w-72' alt="" />
     </div>
 
-    <div class="bg-gray-300 w-full rounded-lg font-[sans-serif] overflow-hidden max-w-5xl mx-auto p-4">
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 items-center my-4">
-        <div class="lg:col-span-2 p-10">
-          <h1 class="sm:flex text-3xl font-bold text-gray-800 sm:justify-center sm:m-auto">SB MUSIC STUDIO</h1>
-          <h1 class="flex text-xl font-bold text-gray-800 justify-center m-auto">Gravação | Mixagem | Ensaios</h1>
-          <p class="mt-4 text-sm text-gray-500 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis accumsan, nunc
+    <div className="bg-gray-200 w-full rounded-lg font-[sans-serif] overflow-hidden max-w-5xl mx-auto p-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 items-center my-4">
+        <div className="lg:col-span-2 p-10">
+          <h1 className="sm:flex text-3xl font-bold text-gray-800 sm:justify-center sm:m-auto">SB MUSIC STUDIO</h1>
+          <h1 className="flex text-xl font-bold text-gray-800 justify-center m-auto">Gravação | Mixagem | Ensaios</h1>
+          <p className="mt-4 text-sm text-gray-500 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis accumsan, nunc
             et
             tempus blandit, metus mi consectetur nibh, a pharetra felis turpis vitae ligula. Etiam laoreet velit nec neque
             ultrices, non consequat mauris tincidunt.</p>
 
         <button type="button"
-            class="px-6 py-3 mt-8 rounded-lg text-white text-sm tracking-wider border-none outline-none bg-black hover:bg-blue-700">Fale com a gente
+            className="px-6 py-3 mt-8 rounded-lg text-white text-sm tracking-wider border-none outline-none bg-black hover:bg-blue-700"><a href="https://wa.me/5581995150001">Fale com a gente</a>
         </button>
         </div>
-        <img src="https://readymadeui.com/cardImg.webp" class="w-full h-full object-cover shrink-0 rounded-sm" />
+        <img src="https://readymadeui.com/cardImg.webp" className="w-full h-full object-cover shrink-0 rounded-sm" />
       </div>
     </div>
 
