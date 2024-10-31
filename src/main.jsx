@@ -12,7 +12,8 @@ import {
 } from "react-router-dom";
 import ErroPage from './routes/ErroPage.jsx';
 import Precos from './routes/Precos.jsx';
-
+import Contato from './routes/Contato.jsx';
+  
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/sbmusic-tabela-de-precos",
         element: <Precos/>,
+        },
+      {
+        path: "/contato",
+        element: <Contato/>,
       },
     ]
   },

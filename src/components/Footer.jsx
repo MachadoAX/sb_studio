@@ -28,7 +28,7 @@ const Footer = () => {
 
       </ul>
 
-      <p className="text-base">© LAXUI. All rights reserved.</p>
+      <p className="text-xs">© LAX-DESINGER. All rights reserved.</p>
     </div>
   </footer>
   )
