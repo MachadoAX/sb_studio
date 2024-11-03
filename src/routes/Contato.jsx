@@ -3,12 +3,14 @@ import Header from '../components/Header'
 import { FaWhatsapp } from 'react-icons/fa'
 import logo_black from '../assets/img/logo_black.png'
 
+
 const Contato = () => {
+
   return (
     <>
         <Header/>
         <section className="bg-white dark:bg-gray-900">
-    <div className="container px-6 py-12 mx-auto">
+        <div className="container px-6 py-12 mx-auto">
         <div className="text-center">
             <img src={logo_black} alt="logo SB Music" className='mx-auto mb-4' />
 
@@ -55,8 +57,7 @@ const Contato = () => {
             </div>
         </div>
     </div>
-</section>
-
+    </section>
 </>
   )
 }
