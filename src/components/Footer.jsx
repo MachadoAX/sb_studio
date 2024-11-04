@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="bg-[#000000] text-white py-12 px-4 font-sans tracking-wide">
+    <footer className="bg-[#000000] text-white py-12 px-4 font-sans tracking-wide ">
     <div className="text-center">
       <h6 className="text-base">Stay connected with us:</h6>
 
